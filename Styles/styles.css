@@ -1,0 +1,408 @@
+nav {
+  text-align: end;
+  color: darkred;
+}
+
+#laBel {
+  border: groove;
+  border-color: #fc3657;
+}
+
+body {
+  font-family: Calibri, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.6;
+  word-spacing: 10px;
+  letter-spacing: 3px;
+}
+
+div {
+  padding: 10px 0;
+}
+
+footer {
+  text-align: end;
+  text-shadow: 1px 0px rgb(99, 96, 96);
+  width: 100%;
+  margin-top: 4px;
+  margin-bottom: -40px;
+  background-color: #e5c9f5;
+}
+
+#body1 {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 10px;
+  background-image: url("/Images/benjamin-gremler-8abHBUrRM60-unsplash.jpg");
+  background-position: center right;
+}
+
+.container {
+  height: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: none;
+  border-radius: 17px;
+  margin-top: 9px;
+  margin-bottom: 10px;
+}
+
+.logo {
+  padding: 100px;
+  margin-left: 10px;
+  height: -1px;
+  width: 5px;
+  cursor: pointer;
+  background-image: url("/Images/logo.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 200px 200px;
+  background-position: center;
+}
+
+.name {
+  padding: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.headu {
+  text-align: right;
+  font-size: 40px;
+
+}
+
+.tribute {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px;
+  margin-bottom: 6px;
+}
+
+.divX {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  padding: 100px 100px;
+  background-color: rgb(147, 199, 199);
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+  border: none;
+  border-radius: 20px;
+}
+
+.ther {
+  width: 100%;
+  background-color: #fc3657;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+  border-radius: 20px;
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
+  opacity: 0.9;
+}
+
+.object {
+  width: 100%;
+  background-color: #3ff786;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+  border-radius: 20px;
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
+  opacity: 0.9;
+}
+
+.subject {
+  width: 100%;
+  background-color: #3d9df7;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+  border-radius: 20px;
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
+  opacity: 0.9;
+}
+
+.ther:hover,
+.object:hover,
+.subject:hover,
+#paRa1:hover,
+#paRa2:hover,
+#paRa3:hover,
+#paRa4:hover {
+  opacity: 1;
+}
+
+
+.fLex {
+  overflow: hidden;
+}
+
+.fLex {
+  flex: 1;
+  border: none;
+}
+
+.fLex:first-child {
+  margin-right: 20px;
+}
+
+
+.para {
+  margin-bottom: 0%;
+  display: flex;
+  flex-direction: row;
+  border: none;
+  border-radius: 12px;
+  background-color: rgb(255, 228, 196);
+}
+
+#img {
+  height: 550px;
+  width: 369px;
+  mix-blend-mode: multiply;
+  border-style: o;
+}
+
+.pAra {
+  margin-top: -30px;
+  margin: 40px;
+}
+
+#paRa1,
+#paRa2,
+#paRa3,
+#paRa4 {
+  opacity: 0.8;
+}
+
+@keyframes slidein-right {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#paRa1 {
+  animation: 0.7s slidein-right;
+}
+
+@keyframes slidein-right {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#paRa2 {
+  animation: 1.9s slidein-right;
+}
+
+@keyframes slidein-right {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#paRa3 {
+  animation: 3.1s slidein-right;
+}
+
+@keyframes slidein-right {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#paRa4 {
+  animation: 4.3s slidein-right;
+}
+
+#paRa1,
+#paRa2,
+#paRa3,
+#paRa4 {
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.80em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.donate-button {
+  display: block;
+  margin: 0 auto;
+  background-color: #198ded;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: ridge solid #ed9850;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 30%;
+  opacity: 0.9;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.donate-button:hover {
+  opacity: 1;
+}
+
+#donate {
+  margin-top: -59px;
+}
+
+.contact-box {
+  width: 100%;
+  text-align: start;
+  background-color: #ff6868;
+  box-shadow: gray 4px 4px;
+  border: rgb(0, 0, 0);
+  border-radius: 10px;
+  background-image: url("/Images/mctesting-01-e1632154323188.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+/* css for payment.html */
+
+input[type=text] {
+  width: 85%;
+  padding: 17px;
+  margin: 5px 2px;
+  display: inline-block;
+  border: none;
+  border-radius: 20px;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+  background-color: rgb(209, 207, 203);
+  outline: none;
+}
+
+#body2 {
+  margin: 0px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("/Images/jacek-dylag-PMxT0XtQ--A-unsplash.jpg");
+  background-position: top center right;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  border: none;
+  border-radius: 17px;
+  margin-top: 9px;
+  background-position: center right;
+}
+
+.logoSp {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.fhead {
+  margin-left: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.heading {
+  text-align: left;
+  font-size: 50px;
+  color: #ffeb34;
+  /* background-color: #8f8f8f; */
+}
+
+.container2 {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: groove;
+  border-color: thistle;
+  margin-bottom: -1px;
+  margin-top: -33px;
+}
+
+.main {
+  background-color: #63c1ffd8;
+  box-shadow: gray 4px 5px;
+  border: none;
+  border-radius: 30px;
+  border-top-right-radius: 0px;
+}
+
+.dntHd {
+  padding: 15px 50px;
+  margin-right: 1px;
+  background-color: #a6fff0d8;
+  border: none;
+  border-start-start-radius: 30px;
+  border-end-end-radius: 30px;
+}
+
+.basicInfo {
+  padding: 15px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  border: ridge solid black;
+}
+
+.fullName {
+  display: flex;
+  flex-direction: column;
+}
+
+.donateBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.donatebtn {
+  background-color: #f05050;
+  color: white;
+  padding: 10px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+.donatebtn:hover {
+  opacity: 1;
+}
