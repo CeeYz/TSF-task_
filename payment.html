@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Payment Page</title>
+    <link rel="stylesheet" type="text/css" href="/Styles/styles.css">
+</head>
+
+<body id="body2">
+    <div class="header" onclick="backHome()">
+        <div class="logoSp">
+            <a href="/index.html" target="_self"><img src="/Images/logo.png" height="120" width="169" /></a>
+        </div>
+        <div class="nameSp">
+            <div class="fhead">
+                <h1 class="heading">
+                    <pre><u>The</u> Sparks Foundation</pre>
+                </h1>
+            </div>
+            <div class="fblank">
+                <!--  -->
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="main">
+            <div class="dntHd">
+                <h1><i>Make a Donation!</i></h1>
+                <h3><em>Make a Change!</em></h3>
+            </div>
+            <div class="infoFlex">
+                <form id="payment-form" onsubmit="dntMoney(); reset(); return false;">
+                    <div class="basicInfo">
+                        <h2> Basic Info </h2>
+                        <div class="fullName">
+                            <div class="firstName">
+                                <label for="first-name"> First Name: </label><br>
+                                <input type="text" id="first-name" placeholder="First Name" required size="69" />
+                            </div>
+                            <div class="lastName">
+                                <label for="last-name"> Last Name: </label><br>
+                                <input type="text" id="last-name" placeholder="Last Name" required size="69" />
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="donateBtn">
+                            <button type="submit" class="donatebtn"> Let's do this! </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>&copy;2023.<br>
+        All rights reserved.<br>
+        By Shubham.</footer>
+
+    <script src="Script/JavaScript.js"></script>
+</body>
+
+</html>
